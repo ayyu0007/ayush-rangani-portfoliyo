@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon"> <!-- favicon.ico -->
+    <link rel="stylesheet" href="css/all.min.css"> <!-- all.min.css -->
+    <link rel="stylesheet" href="css/font.css"> <!-- font.css -->
+    <link rel="stylesheet" href="css/skill.css"> <!-- skill.css -->
+    <title>skill</title>
+</head>
+
+<body>
+
+    <header class="mb-30">
+        <div class="container">
+            <div class="head">
+                <div class="logo">
+                    <h3 class="b-c">i<b>a</b>yush</h3>
+                </div>
+                <div class="switch">
+                    <input id="checkbox" name="checkbox" type="checkbox">
+                    <label class="label" for="checkbox"></label>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- main-content ======================================================
+    ======================================================================= -->
+
+    <section class="main-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <nav>
+                        <ul>
+                            <li><a href="index.html" class="change">home</a></li>
+                            <li><a href="about.html" class="change">about me</a></li>
+                            <li><a href="skill.html" class="change">skill</a></li>
+                            <li><a href="projects.html" class="change">projects</a></li>
+                            <li><a href="contect.html" class="change">contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-4">
+                    <div class="profile">
+                        <div class="avtar">
+                            <!-- <img src="img/resume photo.jpg" alt="avtar4"> -->
+                        </div>
+                        <div class="social">
+                            <h3 class="bc">Ayush Rangani</h3>
+                            <span>Front-end Devloper</span>
+                            <div class="icon">
+                                <span>
+                                    <a href="https://www.linkedin.com/in/ayush-rangani-50976b248/"><i class="fa-brands fa-linkedin-in"></i></a>
+                                </span>
+                                <span>
+                                    <a href="https://twitter.com/AyyuRangan56196"><i class="fa-brands fa-twitter"></i></a>
+                                </span>
+                                <span>
+                                    <a href="https://github.com/ayyu0007"><i class="fa-brands fa-github"></i></a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- skill ==============================
+                --------------------------------------- -->
+
+                <div class="col-6">
+                    <div class="skill-area">
+                        <h3>My Skill,</h3>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="skill">
+                                    <button class="button">
+                                        <span class="button_lg">
+                                            <span class="button_sl"></span>
+                                            <span class="button_text">HTML</span>
+                                        </span>
+                                    </button>
+                                    <button class="button">
+                                        <span class="button_lg">
+                                            <span class="button_sl"></span>
+                                            <span class="button_text">CSS</span>
+                                        </span>
+                                    </button>
+                                    <button class="button">
+                                        <span class="button_lg">
+                                            <span class="button_sl"></span>
+                                            <span class="button_text">JavaScript</span>
+                                        </span>
+                                    </button>
+                                    <button class="button">
+                                        <span class="button_lg">
+                                            <span class="button_sl"></span>
+                                            <span class="button_text">BOOTSTRAP</span>
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="skill">
+                                    <button class="button">
+                                        <span class="button_lg">
+                                            <span class="button_sl"></span>
+                                            <span class="button_text">TAILWIND CSS</span>
+                                        </span>
+                                    </button>
+                                    <button class="button">
+                                        <span class="button_lg">
+                                            <span class="button_sl"></span>
+                                            <span class="button_text">React</span>
+                                        </span>
+                                    </button>
+                                    <button class="button">
+                                        <span class="button_lg">
+                                            <span class="button_sl"></span>
+                                            <span class="button_text">Teamwork</span>
+                                        </span>
+                                    </button>
+                                    <button class="button">
+                                        <span class="button_lg">
+                                            <span class="button_sl"></span>
+                                            <span class="button_text">communication</span>
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- Jquery =====================================================
+    ------------------------------------------------------------------------
+    ====================================================================== -->
+
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript"></script>
+    <script>
+        // theme color chang ========================
+        $('#checkbox').click(function () {
+            $("body").toggleClass('light');
+            $(".b-c").toggleClass('black');
+            $("h1").toggleClass('black');
+            $("h2").toggleClass('black');
+            $("a").toggleClass('black');
+            $(".bc").toggleClass('black');
+            $(".button_text").toggleClass('black');
+            $(".change").toggleClass('glass');
+            $(".profile").toggleClass('glass');
+            $(".skill-area").toggleClass('glass');
+        });
+
+    </script>
+
+</body>
+
+</html>
